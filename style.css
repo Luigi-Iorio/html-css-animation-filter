@@ -50,6 +50,9 @@
 }
 .ex-11-icon {
   font-size: 60px;
+}
+
+.ex-11-icon:hover {
   animation-name: undici;
   animation-duration: 2s;
   animation-iteration-count: infinite;
