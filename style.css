@@ -44,6 +44,9 @@
 }
 .ex-10-icon {
   font-size: 60px;
+  animation-name: dieci;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 .ex-11-icon {
   font-size: 60px;
@@ -133,4 +136,14 @@
   filter: saturate(0.3) hue-rotate(90deg);
   border-radius: 10px;
   transform: scale(1.5, 1.5);
+}
+
+/* esercizio 10 */
+@keyframes dieci {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
