@@ -34,6 +34,10 @@
   width: 500px;
 }
 
+.ex-7-img {
+  transition: 1s;
+}
+
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
@@ -111,4 +115,9 @@
 /* esercizio 6 */
 .ex-6-img:hover {
   filter: grayscale(1);
+}
+
+/* esercizio 7 */
+.ex-7-img:hover {
+  filter: blur(5px) invert(0.3);
 }
