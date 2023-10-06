@@ -97,3 +97,13 @@
 .ex-4-square {
   opacity: 0;
 }
+
+/* esercizio 5 */
+.ex-5-square:hover {
+  transform: scale(2, 2);
+}
+
+.ex-5-square:active {
+  width: 20px;
+  height: 20px;
+}
