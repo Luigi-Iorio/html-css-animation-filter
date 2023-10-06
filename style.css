@@ -127,3 +127,10 @@
   filter: saturate(0.3) invert(0.3);
   border-radius: 10px;
 }
+
+/* esercizio 9 */
+.ex-9-img:hover {
+  filter: saturate(0.3) hue-rotate(90deg);
+  border-radius: 10px;
+  transform: scale(1.5, 1.5);
+}
